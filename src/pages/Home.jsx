@@ -3,15 +3,8 @@ import {useState} from "react";
 import '../styles/Home.css'
 
 function Home(){
-
     const [searchQuery, setSearchQuery] = useState("");
 
-    const movies = [
-        {id: 1, title: "John Wick", release_date: "2020"},
-        {id: 2, title: "Star Wars", release_date: "2020"},
-        {id: 3, title: "The Batman", release_date: "2022"},
-
-    ]
     const handleSearch = (e) => {
         e.preventDefault();
         alert(searchQuery);
