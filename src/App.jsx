@@ -6,7 +6,6 @@ import Favorites from "./pages/Favorites.jsx";
 import NavBar from "./components/NavBar.jsx";
 
 function App() {
-  const movieNumber = 2;
 
   return (
       <div>
